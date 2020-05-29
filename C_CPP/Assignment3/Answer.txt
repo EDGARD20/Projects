@@ -1,0 +1,22 @@
+In main function, argv and argc are how command line arguments are passed to main() in C and C++. “argc” will be the number of strings pointed to by “argv”.
+another words, “argc: is the number of arguments being passed into the program from the command line and “argv” is the array of arguments.
+
+The C library function int "atoi" converts the string argument,( got it from “argv”), to an integer and store in “value”.
+If the string arguments is a number like “12346789”; value will be = 12346789
+If the string arguments is an string characters the value will be = 0
+
+The “magic Function” is a function that gets the value from main function and provide the smallest of odd and even numbers of variable “n” which their multiplication  of those “ odd and even” numbers is equal to the "value". 
+
+
+For example If the string value is “20”, then the output will be like:
+1: 2
+2: 2
+3: 5
+
+If it is “9” then the output would be like:
+1: 3
+2: 3
+
+
+
+
